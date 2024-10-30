@@ -3,3 +3,5 @@ python-dotenv==1.0.0
 djangorestframework==3.14.0
 djangorestframework-simplejwt==5.2.2
 django-cors-headers==3.13.0
+django-rest-batteries
+psycopg2-binary
