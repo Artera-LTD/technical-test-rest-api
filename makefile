@@ -19,5 +19,5 @@ run_redis_local:
 		-p $(REDIS_PORT):6379 redis:latest
 
 run: 
-	make postgres  
-	make redis
+	make run_postgres_local  
+	make run_redis_local
